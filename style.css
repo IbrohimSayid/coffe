@@ -582,6 +582,7 @@
 
     .hero-container {
         background-position: center;
+        background-size: cover;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -630,6 +631,11 @@
 }
 
 @media screen and (max-width: 760px) {
+
+    .hero-container {
+        background-size: 100% 100%;
+        background-position: center;
+    }
 
     .header-container-right {
         display: none;
