@@ -780,9 +780,25 @@
         -webkit-text-fill-color: transparent;
     }
 
+    .collection-container-main-box {
+        gap: 50px;
+    }
+
+    .collection-container-box {
+        /* width: 200px; */
+    }
+
+    .collection-container-box img {
+        width: 250px;
+    }
+
     .us-container-box {
         width: 270px;
         height: 450px;
         padding: 100px 10px;
+    }
+
+    .us-container-title-h1 {
+        padding: 0px 30px;
     }
 }
