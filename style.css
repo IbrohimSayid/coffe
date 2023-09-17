@@ -633,8 +633,8 @@
 @media screen and (max-width: 760px) {
 
     .hero-container {
-        background-size: 100% 100%;
-        background-position: center;
+        background-position: right;
+        background-size: cover;
     }
 
     .header-container-right {
