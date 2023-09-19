@@ -1119,11 +1119,18 @@
 
     .about-hero-container {
         height: 500px;
+        background-position: center 0px;
+    }
+
+    .about-hero-container-title h1 {
+        margin-top: -40px;
+        white-space: nowrap;
     }
 
     .about-hero-container-title p {
         padding: 0px;
     }
+
 
     .obligation-box img {
         width: 350px;
